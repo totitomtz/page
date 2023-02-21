@@ -9,6 +9,9 @@ import { ContentComponent } from './content/content.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { InicioComponent } from './content/inicio/inicio.component';
 
+/*servicio*/
+import { CargarscriptsService } from './cargarscripts.service';
+
 @NgModule({
   declarations: [
     AppComponent,
