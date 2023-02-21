@@ -25,7 +25,9 @@ import { CargarscriptsService } from './cargarscripts.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    CargarscriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
