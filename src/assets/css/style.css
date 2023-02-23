@@ -87,7 +87,7 @@ h6 {
 
 #topbar .contact-info i {
   font-style: normal;
-  color: #ff5821;
+  color: #ffff1a;
 }
 
 #topbar .contact-info i a,
@@ -102,19 +102,19 @@ h6 {
 }
 
 #topbar .contact-info i a:hover {
-  color: #ff5821;
+  color: #ffff1a;
 }
 
 #topbar .cta a {
-  color: #fff;
-  background: #ff5821;
+  color: #000000;
+  background: #ffff1a;
   padding: 10px 20px;
   display: inline-block;
   transition: 0.3s;
 }
 
 #topbar .cta a:hover {
-  background: #ff6b3b;
+  background: #ffff1a;
 }
 
 /*--------------------------------------------------------------
