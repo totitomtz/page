@@ -13,7 +13,12 @@ import { InicioComponent } from './content/inicio/inicio.component';
 import { CargarscriptsService } from './cargarscripts.service';
 /* rutas*/
 import { RouterModule, Routes } from '@angular/router';
-
+import { NosotrosComponent } from './content/nosotros/nosotros.component';
+import { ServiciosComponent } from './content/servicios/servicios.component';
+import { ContactoComponent } from './content/contacto/contacto.component';
+import { MantenimientoComponent } from './content/servicios/mantenimiento/mantenimiento.component';
+import { ComponentespcComponent } from './content/servicios/componentespc/componentespc.component';
+import { CotizacionesComponent } from './content/servicios/cotizaciones/cotizaciones.component';
 const appRoutes: Routes=[{path:'Inicio', component: InicioComponent},
 
 
@@ -27,7 +32,13 @@ const appRoutes: Routes=[{path:'Inicio', component: InicioComponent},
     FooterComponent,
     ContentComponent,
     NavbarComponent,
-    InicioComponent
+    InicioComponent,
+    NosotrosComponent,
+    ServiciosComponent,
+    ContactoComponent,
+    MantenimientoComponent,
+    ComponentespcComponent,
+    CotizacionesComponent,
   ],
   imports: [
     BrowserModule,
