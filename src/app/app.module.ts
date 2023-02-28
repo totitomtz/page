@@ -11,6 +11,14 @@ import { InicioComponent } from './content/inicio/inicio.component';
 
 /*servicio*/
 import { CargarscriptsService } from './cargarscripts.service';
+/* rutas*/
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes=[{path:'Inicio', component: InicioComponent},
+
+
+
+];
 
 @NgModule({
   declarations: [
@@ -23,7 +31,8 @@ import { CargarscriptsService } from './cargarscripts.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes,{enableTracing:true})
   ],
   providers: [
     CargarscriptsService
