@@ -19,6 +19,13 @@ import { ContactoComponent } from './content/contacto/contacto.component';
 import { MantenimientoComponent } from './content/servicios/mantenimiento/mantenimiento.component';
 import { ComponentespcComponent } from './content/servicios/componentespc/componentespc.component';
 import { CotizacionesComponent } from './content/servicios/cotizaciones/cotizaciones.component';
+import { ProcesadoresComponent } from './content/servicios/componentespc/procesadores/procesadores.component';
+import { TarjetasGraficasComponent } from './content/servicios/componentespc/tarjetas-graficas/tarjetas-graficas.component';
+import { MemoriasRamComponent } from './content/servicios/componentespc/memorias-ram/memorias-ram.component';
+import { MemoriasSsdHddComponent } from './content/servicios/componentespc/memorias-ssd-hdd/memorias-ssd-hdd.component';
+import { FuentesDePoderComponent } from './content/servicios/componentespc/fuentes-de-poder/fuentes-de-poder.component';
+import { VentiladoresComponent } from './content/servicios/componentespc/ventiladores/ventiladores.component';
+import { GabinetesComponent } from './content/servicios/componentespc/gabinetes/gabinetes.component';
 const appRoutes: Routes=[{path:'Inicio', component: InicioComponent},
 
 
@@ -39,6 +46,13 @@ const appRoutes: Routes=[{path:'Inicio', component: InicioComponent},
     MantenimientoComponent,
     ComponentespcComponent,
     CotizacionesComponent,
+    ProcesadoresComponent,
+    TarjetasGraficasComponent,
+    MemoriasRamComponent,
+    MemoriasSsdHddComponent,
+    FuentesDePoderComponent,
+    VentiladoresComponent,
+    GabinetesComponent,
   ],
   imports: [
     BrowserModule,
