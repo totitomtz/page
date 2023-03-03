@@ -26,8 +26,22 @@ import { MemoriasSsdHddComponent } from './content/servicios/componentespc/memor
 import { FuentesDePoderComponent } from './content/servicios/componentespc/fuentes-de-poder/fuentes-de-poder.component';
 import { VentiladoresComponent } from './content/servicios/componentespc/ventiladores/ventiladores.component';
 import { GabinetesComponent } from './content/servicios/componentespc/gabinetes/gabinetes.component';
-const appRoutes: Routes=[{path:'Inicio', component: InicioComponent},
-
+const appRoutes: Routes=[
+  {path:'', component:InicioComponent},
+  {path:'inicio', component: InicioComponent},
+  {path:'nosotros',component: NosotrosComponent},
+  {path:'servicios', component:ServiciosComponent},
+  {path:'contacto', component:ContactoComponent},
+  {path:'mantenimiento',component:MantenimientoComponent},
+  {path:'componentes',component:ComponentespcComponent},
+  {path:'cotizaciones',component:CotizacionesComponent},
+  {path:'procesadores',component:ProcesadoresComponent},
+  {path:'tarjetas graficas',component:TarjetasGraficasComponent},
+  {path:'memorias ram', component:MemoriasRamComponent},
+  {path:'memorias ssd hdd',component:MemoriasSsdHddComponent},
+  {path:'fuentes de poder',component:FuentesDePoderComponent},
+  {path:'ventiladores',component:VentiladoresComponent},
+  {path:'gabinetes', component:GabinetesComponent},
 
 
 ];
