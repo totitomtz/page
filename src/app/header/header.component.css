@@ -1,0 +1,61 @@
+
+
+    .colorblanco{
+        color: rgb(255, 255, 255);
+        }
+        
+        .colorrojo{
+            color: red;
+        }
+        
+        
+        .logo
+        {
+            width: 45px;
+            float: left;
+            padding: 1px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            padding-left: 15px;
+        }
+        
+        table{
+            width: 100%;
+          
+        }
+        
+        
+        
+        header
+        {
+            background-color: black;
+        }
+        
+        a
+        {font-size: 11px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        text-transform:uppercase;
+        padding-top: 1px;
+        padding-bottom: 10px;
+        }
+        
+        .bold
+        {
+            font-weight: bold;
+        }
+        
+        
+        .columnader
+        {
+                float: right;
+                padding-top: 13px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+        
+        }
+        
+        tr
+        {float: none;
+        
+        };
