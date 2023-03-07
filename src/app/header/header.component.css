@@ -1,5 +1,8 @@
 
 
+
+
+
     .colorblanco{
         color: rgb(255, 255, 255);
         }
@@ -32,8 +35,8 @@
         }
         
         a
-        {font-size: 11px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        {font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none;
         text-transform:uppercase;
         padding-top: 1px;
@@ -48,14 +51,18 @@
         
         .columnader
         {
-                float: right;
-                padding-top: 13px;
-                padding-bottom: 10px;
-                padding-left: 15px;
-        
+                float:none;
+                padding-top: 20px;
+                padding-bottom: 20px;
+               padding-left: 70%;        
         }
         
         tr
         {float: none;
         
+        };
+
+        a:hover,
+        a.hover:focus{
+color:#ffff1a
         };
