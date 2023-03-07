@@ -27,23 +27,23 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="http://localhost:4200/nosotros">Nosotros</a></li>
-          <li class="dropdown"><a href="http://localhost:4200/servicios"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a [routerLink]="['inicio']" class="nav-link scrollto active" >Inicio</a></li>
+          <li><a [routerLink]="['nosotros']"class="nav-link scrollto" >Nosotros</a></li>
+          <li class="dropdown"><a [routerLink]="['servicios']"><span>Servicios</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Mantenimiento de PC'S</a></li>
-              <li class="dropdown"><a href="#"><span>Componentes para PC</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a [routerLink]="['Mantenimiento']">Mantenimiento de PC'S</a></li>
+              <li class="dropdown"><a  [routerLink]="['componentes']"><span>Componentes para PC</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="http://localhost:4200/procesadores">Procesadores</a></li>
-                  <li><a href="http://localhost:4200/tarjetas-graficas">Tarjetas Graficas</a></li>
-                  <li><a href="#">Memorias RAM</a></li>
-                  <li><a href="#">Memorias SSD Y HDD</a></li>
-                  <li><a href="#">Fuentes de Poder</a></li>
-                  <li><a href="#">Ventiladores</a></li>
-                  <li><a href="#">Gabinetes</a></li>
+                  <li><a  [routerLink]="['procesadores']">Procesadores</a></li>
+                  <li><a  [routerLink]="['tarjetas graficas']">Tarjetas Graficas</a></li>
+                  <li><a  [routerLink]="['memorias ram']">Memorias RAM</a></li>
+                  <li><a  [routerLink]="['memorias ssd hdd']">Memorias SSD Y HDD</a></li>
+                  <li><a  [routerLink]="['fuentes de poder']">Fuentes de Poder</a></li>
+                  <li> <a [routerLink]="['ventiladores']" >Ventiladores</a></li>
+                  <li><a [routerLink]="['gabinetes']">Gabinetes</a></li>
                 </ul>
               </li>
-              <li><a href="#">Cotizaciones de Ensambles</a></li>
+              <li><a [routerLink]="['cotizaciones']">Cotizaciones de Ensambles</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
