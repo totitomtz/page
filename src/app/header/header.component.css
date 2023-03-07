@@ -1,8 +1,3 @@
-
-
-
-
-
     .colorblanco{
         color: rgb(255, 255, 255);
         }
@@ -62,7 +57,11 @@
         
         };
 
-        a:hover,
-        a.hover:focus{
-color:#ffff1a
-        };
+        a:hover{
+        color:#ffff1a
+        }
+
+        .space
+        {
+            padding-left: 20px;
+        }
