@@ -192,6 +192,7 @@ h6 {
   color:#000000;
   white-space: nowrap;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .navbar a i,
@@ -199,6 +200,7 @@ h6 {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  text-decoration: none;
 }
 
 .navbar a:hover,
