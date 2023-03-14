@@ -194,7 +194,8 @@ h6 {
   color:#000000;
   white-space: nowrap;
   transition: 0.3s;
-  text-decoration: none;
+  text-decoration:solid;
+  font-weight: bold;
 }
 
 .navbar a i,
