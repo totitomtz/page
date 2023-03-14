@@ -28,6 +28,8 @@ import { MemoriasSsdHddComponent } from './content/servicios/componentespc/memor
 import { FuentesDePoderComponent } from './content/servicios/componentespc/fuentes-de-poder/fuentes-de-poder.component';
 import { VentiladoresComponent } from './content/servicios/componentespc/ventiladores/ventiladores.component';
 import { GabinetesComponent } from './content/servicios/componentespc/gabinetes/gabinetes.component';
+import { RegistroComponent } from './content/registro/registro.component';
+import { SesionComponent } from './content/sesion/sesion.component';
 const appRoutes: Routes=[
   {path:'', component:InicioComponent},
   {path:'inicio', component: InicioComponent},
@@ -44,7 +46,8 @@ const appRoutes: Routes=[
   {path:'fuentes de poder',component:FuentesDePoderComponent},
   {path:'ventiladores',component:VentiladoresComponent},
   {path:'gabinetes', component:GabinetesComponent},
-
+{path:'iniciarsesion',component:SesionComponent},
+{path:'registro',component:RegistroComponent},
 
 ];
 
@@ -69,6 +72,8 @@ const appRoutes: Routes=[
     FuentesDePoderComponent,
     VentiladoresComponent,
     GabinetesComponent,
+    RegistroComponent,
+    SesionComponent,
   ],
   imports: [
     BrowserModule,
