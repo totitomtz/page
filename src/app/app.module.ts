@@ -13,6 +13,8 @@ import { InicioComponent } from './content/inicio/inicio.component';
 import { CargarscriptsService } from './cargarscripts.service';
 /* rutas*/
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule} from '@angular/forms';
+import { AngularFireModule } from '@angular/fire/compat';
 import { NosotrosComponent } from './content/nosotros/nosotros.component';
 import { ServiciosComponent } from './content/servicios/servicios.component';
 import { ContactoComponent } from './content/contacto/contacto.component';
@@ -72,6 +74,14 @@ const appRoutes: Routes=[
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes,{enableTracing:true})
+   , FormsModule,
+   AngularFireModule.initializeApp({ apiKey: "AIzaSyA_f5xur27tja7EYMyHh0FTH6MJXLl-des",
+   authDomain: "oneclick-a849a.firebaseapp.com",
+   projectId: "oneclick-a849a",
+   storageBucket: "oneclick-a849a.appspot.com",
+   messagingSenderId: "561333718629",
+   appId: "1:561333718629:web:94823ad92c758b8b31008c",
+   measurementId: "G-P609FENTR4"}),
   ],
   providers: [
     CargarscriptsService
