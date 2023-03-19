@@ -20,13 +20,14 @@ h1{
 font-weight: bolder;
 }
 
-email{
+
+label{
     display: block;
     text-align: center;
 font-style: italic;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 26px;
-align-items: center;
+align-self: center;
 }
 
 label{
