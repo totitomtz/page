@@ -1,16 +1,30 @@
-<div>
-  <body>
-  
-  
-    <h2>INICIAR SESION</h2>
+<html>
 
+<body>
+    <form action="#" method="POST">
+        <div id="login-box">
+            <h1>Login</h1> <!-- El título de Inicio de sesión !-->
 
-    <form>
-      <label for="name">Correo Electronico:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="name">Contraseña:</label><br>
-      <input type="text" id="lname" name="lname">
+            <div class="form">
+                <div class="item"> <!-- parte de nombre de usuario !-->
+                    <i></i> <!-- Se utilizará para dibujar el icono delante del nombre de usuario !-->
+                    <input type="text" placeholder="username" name="username"> <!-- Entrada de nombre de usuario realizada por cuadro de texto !-->
+                </div>
+
+                <div class="item"> <!-- parte de la contraseña !-->
+                    <i></i> <!-- Se utilizará para dibujar el icono delante de la contraseña en el futuro !-->
+                    <input type="password" placeholder="password" name="password"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
+                </div>
+
+            </div>
+            
+            <button type="submit">Login</button> <!-- Botón de inicio de sesión implementado con el botón !-->
+        </div>
     </form>
-  
-  </body>
-    </div>
+    <br>
+    <br>
+
+    <a [routerLink]="['registro']">¿No tienes una cuenta? Registrate!</a>
+</body>
+
+</html>

@@ -1,17 +1,34 @@
-<p>registro works!</p>
-<div>
-    <body>
+<html>
+
+<body>
+
+    <form action="#" method="POST">
+        <div id="login-box">
+            <h1>Registrarse</h1> <!-- El título de Inicio de sesión !-->
+
+            <div class="form">
+                 
     
-    
-      <h2>INICIAR SESION</h2>
-  
-  
-      <form>
-        <label for="name">Correo Electronico:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="name">Contraseña:</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
-    
-    </body>
-      </div>
+                    <input type="email" [(ngModel)]="form.nombre" placeholder="Escribe tu correo .">
+                </div>
+
+
+                <div class="item"> <!-- parte de la contraseña !-->
+                    <i></i> <!-- Se utilizará para dibujar el icono delante de la contraseña en el futuro !-->
+                    <input type="password" placeholder="contraseña" name="password"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
+                </div>
+                <div class="item"> <!-- parte de la contraseña !-->
+                  <i></i> <!-- Se utilizará para dibujar el icono delante de la contraseña en el futuro !-->
+                  <input type="password" placeholder="confirmar contraseña" name="password"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
+              </div>
+
+            </div>
+            
+            <button type="submit">Login</button> <!-- Botón de inicio de sesión implementado con el botón !-->
+        
+    </form>
+    <br>
+    <br>
+</body>
+
+</html>

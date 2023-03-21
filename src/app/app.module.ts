@@ -14,7 +14,7 @@ import { CargarscriptsService } from './cargarscripts.service';
 /* rutas*/
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule} from '@angular/forms';
-import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireModule } from '@angular/fire/compat'; 
 import { NosotrosComponent } from './content/nosotros/nosotros.component';
 import { ServiciosComponent } from './content/servicios/servicios.component';
 import { ContactoComponent } from './content/contacto/contacto.component';
@@ -30,6 +30,9 @@ import { VentiladoresComponent } from './content/servicios/componentespc/ventila
 import { GabinetesComponent } from './content/servicios/componentespc/gabinetes/gabinetes.component';
 import { RegistroComponent } from './content/registro/registro.component';
 import { SesionComponent } from './content/sesion/sesion.component';
+/* FIREBASE*/
+
+
 const appRoutes: Routes=[
   {path:'', component:InicioComponent},
   {path:'inicio', component: InicioComponent},
@@ -91,6 +94,6 @@ const appRoutes: Routes=[
   providers: [
     CargarscriptsService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] 
 })
 export class AppModule { }

@@ -1,46 +1,42 @@
-body{
-    background-color: yellow;
-display: block;
-align-items: center;
-align-content: center;
-padding-top: 1%;
-padding-bottom: 10%;
-    
-
-}
-h2{
-    margin: 0;
-    font-size: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
+#login-box {
+    border: 1px solid black;
+    width: 30%;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    background: rgba(0, 0, 0, 0.075);
+    padding: 20px 50px;
 }
 
-input{
-font-style: italic;
-font-family: 'Times New Roman', Times, serif;
-font-size: 16px;
-width: 40%;
-border-width: 2 px;
-border-color: black;
-margin-left: 393px;
+#login-box h1 {
+    color: rgb(0, 0, 0);
+}
+
+
+#login-box .form .item input {
+    width: 200px; /* Establecer el ancho apropiado */
+    border: 0; /* Primero cancele el borde, para que pueda modificar el ancho del borde inferior debajo */
+    border-bottom: 5px solid white; /* Modificar el límite inferior para mostrar el efecto de línea horizontal */
+    font-size: 18px; /* Aumentar el tamaño de fuente de forma adecuada */
+    background: #131313; /* Establecer el cuadro de entrada en transparente */
+    color: rgb(255, 255, 255); /* El color del texto anterior se establece en blanco, pero el color del marcador de posición debe establecerse por separado */
+    padding: 5px 10px; /* Para que el contenido del marcador de posición no se muestre en la cuadrícula superior, aumente el borde interno */
+}
+
+#login-box .form .item i {
+   
+    color: white;
+    font-size: 18px;
+}
+
+body{
+   padding-top: 40px;
 
 }
 
-label{
-    display: block;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 20px;
+a{
 text-align: center;
-margin-top:10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
 color: white;
-}
-
-form{
-
-align-items: center;
-    border-color: black;
-   background-color: black;
-padding: 30px;
-
 }
