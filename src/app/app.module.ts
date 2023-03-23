@@ -30,6 +30,7 @@ import { VentiladoresComponent } from './content/servicios/componentespc/ventila
 import { GabinetesComponent } from './content/servicios/componentespc/gabinetes/gabinetes.component';
 import { RegistroComponent } from './content/registro/registro.component';
 import { SesionComponent } from './content/sesion/sesion.component';
+
 /* FIREBASE*/
 
 

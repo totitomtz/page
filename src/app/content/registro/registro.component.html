@@ -6,26 +6,37 @@
         <div id="login-box">
             <h1>Registrarse</h1> <!-- El título de Inicio de sesión !-->
 
+                <div>
+                    <input type="email" [(ngModel)]= "form.nombre" placeholder="Escribe tu correo.">
+                </div>
+
             <div class="form">
                  
-    
-                    <input type="email" [(ngModel)]="form.nombre" placeholder="Escribe tu correo .">
+                       <p>ESCRIBE TU CORREO</p>  
+                    <input type="email" [(ngModel)]= "form.nombre" placeholder="Escribe tu correo.">
                 </div>
 
-
+                        <p>ESCRIBE TU CONTRASEÑA</p>
                 <div class="item"> <!-- parte de la contraseña !-->
                     <i></i> <!-- Se utilizará para dibujar el icono delante de la contraseña en el futuro !-->
-                    <input type="password" placeholder="contraseña" name="password"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
+                    <input type="password" [(ngModel)]= "form.contrasena"  placeholder="Debe contener 8 caracteres"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
                 </div>
+
+
+                <P>CONFIRMA TU CONTRASEÑA </P>
                 <div class="item"> <!-- parte de la contraseña !-->
-                  <i></i> <!-- Se utilizará para dibujar el icono delante de la contraseña en el futuro !-->
-                  <input type="password" placeholder="confirmar contraseña" name="password"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
-              </div>
+                 
+                    <input type="password" [(ngModel)]= "ccontrasena" placeholder="Confirmar contrasena">
+              </div>  
 
             </div>
             
-            <button type="submit">Login</button> <!-- Botón de inicio de sesión implementado con el botón !-->
-        
+           <button (click)="registrarme()">Registrarme <i class="fas fa-sign-in-alt"></i></button>
+           <br><br>
+           <a [routerLink]="['iniciarsesion']">
+            ya tienes tu cuenta? !Inicia Sesion¡
+           </a>  
+
     </form>
     <br>
     <br>
