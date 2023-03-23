@@ -7,13 +7,14 @@
             <h1>Registrarse</h1> <!-- El título de Inicio de sesión !-->
 
                 <div>
-                    <input type="email" [(ngModel)]= "form.nombre" placeholder="Escribe tu correo.">
+                    <p>ESCRIBE TU NOMBRE</p>
+                    <input type="text" [(ngModel)]= "form.nombre" placeholder="Escribe tu nombre.">
                 </div>
 
             <div class="form">
                  
                        <p>ESCRIBE TU CORREO</p>  
-                    <input type="email" [(ngModel)]= "form.nombre" placeholder="Escribe tu correo.">
+                    <input type="email" [(ngModel)]= "form.correo" placeholder="Escribe tu correo.">
                 </div>
 
                         <p>ESCRIBE TU CONTRASEÑA</p>
@@ -33,8 +34,7 @@
             
            <button (click)="registrarme()">Registrarme <i class="fas fa-sign-in-alt"></i></button>
            <br><br>
-           <a [routerLink]="['iniciarsesion']">
-            ya tienes tu cuenta? !Inicia Sesion¡
+           <a [routerLink]="['iniciarsesion']"> ya tienes tu cuenta? !Inicia Sesion¡
            </a>  
 
     </form>

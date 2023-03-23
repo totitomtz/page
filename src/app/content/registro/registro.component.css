@@ -35,3 +35,14 @@ background-color: yellow;
 }   
 
 p{color: white;}
+
+a{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+   margin-left: 47%;
+}
