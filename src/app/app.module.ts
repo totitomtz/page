@@ -50,7 +50,7 @@ const appRoutes: Routes=[
   {path:'fuentes de poder',component:FuentesDePoderComponent},
   {path:'ventiladores',component:VentiladoresComponent},
   {path:'gabinetes', component:GabinetesComponent},
-{path:'iniciarsesion',component:SesionComponent},
+{path:'sesion',component:SesionComponent},
 {path:'registro',component:RegistroComponent},
 
 ];

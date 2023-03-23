@@ -1,33 +1,33 @@
 <html>
 
 <body>
-
+    
     <form action="#" method="POST">
         <div id="login-box">
             <h1>Registrarse</h1> <!-- El título de Inicio de sesión !-->
 
                 <div>
                     <p>ESCRIBE TU NOMBRE</p>
-                    <input type="text" [(ngModel)]= "form.nombre" placeholder="Escribe tu nombre.">
+                    <input type="text" [(ngModel)]= "form.nombre" name="nombre" placeholder="Escribe tu nombre.">
                 </div>
 
             <div class="form">
                  
                        <p>ESCRIBE TU CORREO</p>  
-                    <input type="email" [(ngModel)]= "form.correo" placeholder="Escribe tu correo.">
+                    <input type="email" [(ngModel)]= "form.correo" name="correo" placeholder="Escribe tu correo.">
                 </div>
 
                         <p>ESCRIBE TU CONTRASEÑA</p>
                 <div class="item"> <!-- parte de la contraseña !-->
                     <i></i> <!-- Se utilizará para dibujar el icono delante de la contraseña en el futuro !-->
-                    <input type="password" [(ngModel)]= "form.contrasena"  placeholder="Debe contener 8 caracteres"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
+                    <input type="password" [(ngModel)]= "form.contrasena" name="contrasena"  placeholder="Debe contener 8 caracteres"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña !-->
                 </div>
 
 
                 <P>CONFIRMA TU CONTRASEÑA </P>
                 <div class="item"> <!-- parte de la contraseña !-->
                  
-                    <input type="password" [(ngModel)]= "ccontrasena" placeholder="Confirmar contrasena">
+                    <input type="password" [(ngModel)]= "ccontrasena" name="ccontrasena" placeholder="Confirmar contrasena">
               </div>  
 
             </div>
@@ -38,8 +38,7 @@
            </a>  
 
     </form>
-    <br>
-    <br>
+   
 </body>
 
 </html>
