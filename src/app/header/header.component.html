@@ -5,11 +5,11 @@
     
     <td class="columnader">
         
-        <a  class="colorblanco" [routerLink]="['sesion']" ><i class="fa-solid fa-user"></i>  Iniciar Sesion </a>
+        <a  class="colorblanco" [routerLink]="['sesion']"  *ngIf="usuario_activo==false" ><i class="fa-solid fa-user"></i>  Iniciar Sesion </a>
         
     <a href="https://api.whatsapp.com/send?phone=8672749630&text=Hola, Nececito mas informacion! " target="_blank"  class="colorblanco"> <i class="fa-brands fa-whatsapp"></i>  Contacto </a>
   
-    <a  class="colorblanco"  [routerLink]="['']" (click)="cerrarsesion()"> <i class="fa-solid fa-right-from-bracket"></i>  Cerrar Sesion   </a>
+    <a  class="colorblanco"  [routerLink]="['inicio']" (click)="cerrarsesion()"  *ngIf="usuario_activo==true" > Cerrar Sesion </a>
     </td>
         <!--esto es una columna-->
     

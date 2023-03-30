@@ -9,6 +9,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  usuario_activo:Boolean | undefined 
+
 constructor(private cargarscripts: CargarscriptsService, private auth:AngularFireAuth, private router:Router ) {
   cargarscripts.carga([
 
@@ -25,6 +28,14 @@ constructor(private cargarscripts: CargarscriptsService, private auth:AngularFir
 }
 
 ngOnInit(): void {
+  this.auth.authState.subscribe(user => {
+    if (user) {
+      this.usuario_activo = true
+    }
+    else{
+      this.usuario_activo = false
+    }
+  })
   
 }
 
