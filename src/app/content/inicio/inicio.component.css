@@ -8,3 +8,10 @@ h1{
     text-align: left;
     font-weight: bold;
 }
+
+p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+text-align: left;
+}
