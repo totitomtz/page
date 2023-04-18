@@ -61,7 +61,7 @@ h6 {
 }
 
 .back-to-top.active {
-  visibility: visible;
+  visibility:hidden;
   opacity: 1;
 }
 

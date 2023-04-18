@@ -4,3 +4,24 @@
     margin-right: auto;
     width: 50%;
   }
+
+  .esp{
+    padding-left: 60px;
+    padding-right: 60px;
+
+  }
+h1{
+    font-family: fjalla;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+  p{
+    font-family: josefin;
+    font-weight: 400; 
+    color: black ;
+    text-align: center;
+  }
