@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    font: josefine;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.accordion{
+    padding-left: 34px;
+    padding-right: 34px;
+padding-bottom: 40px;
+}
+
+.accordion-item{
+    color: black ;
+    font-family: fjalla;
+}
+
+.accordion-button{
+    background-color: black;
+    font-size: 17px;
+    color: yellow;
+    font-family: fjalla;
+}
