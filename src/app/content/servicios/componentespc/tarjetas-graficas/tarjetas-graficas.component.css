@@ -81,8 +81,17 @@ tr{
     display: inline-block;
    
 }
+th{
+    width: 20%;
+}
 table{
     width: 100%;
     padding-left: 1px;
     text-align: center;
+}
+
+.divyellow{
+    background-color: yellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
