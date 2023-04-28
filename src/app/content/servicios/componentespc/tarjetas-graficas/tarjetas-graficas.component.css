@@ -31,6 +31,9 @@ ul{
  padding-top: 10px;
  padding-bottom: 10px;
  margin-bottom: 30px;
+ border: 9px;
+ border-color: rgb(33, 172, 33);
+ border-bottom-style: solid;
 }
 
 li{
@@ -42,6 +45,7 @@ li{
     padding-top: 5px;
     padding-bottom: 4px;
     color: white;
+    letter-spacing: 1px;
 }
 
 
@@ -75,13 +79,15 @@ h2{
     font-size: 40px;
 color: white;
 background-color: rgb(33, 172, 33);
+border: 12px;
+border-color: black;
+border-left-style: solid;
 display: block;
 margin: auto;
 padding: auto ;
-width: 50%;
+width: 47%;
 padding-top: 16px;
 padding-bottom: 10px;
-
 }
 
 tr{
@@ -93,18 +99,24 @@ th{
     width: 20%;
 }
 table{
-    width: 100%;
-    padding-left: 1px;
+    width: 50%;
+    margin-left: 25%;
     text-align: center;
+    border-spacing: 1px;
+    margin-top: 10px;
 }
 
 .divyellow{
-    background-color: yellow;
+    background-color: rgb(33, 172, 33);
     padding-top: 2px;
     padding-bottom: 2px;
 }
 .divw{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+body{
+    margin-bottom: 20px;
 }
