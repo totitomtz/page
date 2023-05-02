@@ -6,7 +6,7 @@
     background-position-y: top;
     background-image: url(../../../../../assets/img/backprod.jpg);
     background-position: left 10%;
-    background-blend-mode:luminosity
+    background-blend-mode:luminosity;
 }
 
 body{
