@@ -6,6 +6,20 @@ h2{
 
 }
 
+table
+{
+display: block;
+width: 100%;
+}
+
+.logo{
+        margin-left: auto;
+        
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+
 .accordion{
     padding-left: 34px;
     padding-right: 34px;
@@ -41,9 +55,16 @@ ul{
     text-align: left;
 }
 
+p{
+    text-align: center;
+    font-size: 28px;
+    font-family: fjalla;
+
+}
 .h1bg{
     background-color: rgb(255, 115, 0);
     margin-bottom: 40px;
+    margin-top: 3px;
     padding-top: 3%;
     padding-bottom: 3%;
     background-position-y: top;
