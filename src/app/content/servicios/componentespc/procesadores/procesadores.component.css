@@ -13,11 +13,10 @@ width: 100%;
 }
 
 .logo{
-        margin-left: auto;
-        
     display: block;
-    width: 60%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .accordion{
@@ -34,6 +33,27 @@ padding-bottom: 40px;
 }
 
 .accordion-button{
+    background-color: rgb(216, 216, 216);
+    font-size: 17px;
+    color: rgb(37, 37, 37);
+    font-family: fjalla;
+    text-align: right;
+}
+
+.accordion2{
+    padding-left: 34px;
+    padding-right: 34px;
+padding-bottom: 40px;
+
+}
+
+.accordion-item2{
+    color: black ;
+    font-family: fjalla;
+    text-align: center;
+}
+
+.accordion-button2{
     background-color: rgb(255, 123, 47);
     font-size: 17px;
     color: rgb(255, 255, 255);
