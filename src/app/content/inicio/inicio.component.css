@@ -15,6 +15,14 @@
     background-blend-mode: multiply;
     padding-bottom: 200px;}
 
+    .comp
+    {   background-color: rgb(106 106 106);
+        background-image: url(../../../assets/img/page/componentes.jpg);
+        background-position: right;
+        padding-top: 200px;
+        background-blend-mode: multiply;
+        padding-bottom: 200px;}
+
 h1{
     font-size: 90px;
     color: black;
@@ -25,7 +33,7 @@ h1{
 }
 
 .h1t{
-    font-size: 90px;
+    font-size: 140px;
     color: white;
     text-align: center;
     font-weight: 800;
@@ -43,8 +51,17 @@ h2{
 }
 
 p{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-family:fjalla;
     font-weight: 500;
-text-align: left;
+    font-size: 40px;
+text-align: center;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-family:fjalla;
+    font-weight: 500;
+    font-size: 40px;
+text-align: center;
 }
