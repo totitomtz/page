@@ -1,12 +1,45 @@
 .backinicio{
-    background-color: rgb(240, 202, 34);
+    background-color: rgb(106 106 106);
+    background-image: url(../../../assets/img/page/home-girl.jpg);
+    background-position: right;
+    padding-top: 200px;
+    background-blend-mode: multiply;
+    padding-bottom: 200px;
 }
 
+.mant
+{   background-color: rgb(106 106 106);
+    background-image: url(../../../assets/img/page/Mantenimiento.jpg);
+    background-position: right;
+    padding-top: 200px;
+    background-blend-mode: multiply;
+    padding-bottom: 200px;}
+
 h1{
-    font-size: 70px;
+    font-size: 90px;
     color: black;
     text-align: left;
-    font-weight: bold;
+    font-weight: 800;
+    font-family: josefin;
+    padding-left: 40px;
+}
+
+.h1t{
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family: josefin;
+    padding-left: 40px;
+}
+
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-weight: 300;
+    font-family: josefin;
+    padding-left: 50px;
 }
 
 p{

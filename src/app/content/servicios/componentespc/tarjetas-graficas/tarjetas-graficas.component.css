@@ -36,6 +36,20 @@ ul{
  border-bottom-style: solid;
 }
 
+.ulamd{
+    background-color: black;
+    width: 50%;
+ display: block;
+ margin: auto;
+ padding: auto ;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-bottom: 30px;
+ border: 9px;
+ border-color: rgb(255, 0, 0);
+ border-bottom-style: solid;
+}
+
 li{
     text-align: center;
     font-family: fjalla;
@@ -79,6 +93,24 @@ h2{
     font-size: 40px;
 color: white;
 background-color: rgb(33, 172, 33);
+border: 12px;
+border-color: black;
+border-left-style: solid;
+display: block;
+margin: auto;
+padding: auto ;
+width: 47%;
+padding-top: 16px;
+padding-bottom: 10px;
+}
+
+.amdh2{
+    font-family: josefin;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 0, 0);
 border: 12px;
 border-color: black;
 border-left-style: solid;
